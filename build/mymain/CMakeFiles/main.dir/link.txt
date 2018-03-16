@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++17 -pthread -Wconversion -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Woverloaded-virtual -Wwrite-strings -Wno-unused -O0 -g3   CMakeFiles/main.dir/main.cpp.o  -o main -rdynamic ../mylib/libmylib.so -lboost_thread -lboost_system -Wl,-rpath,/home/vinit/workspace/c++/CPPCMakeProject/build/mylib: 

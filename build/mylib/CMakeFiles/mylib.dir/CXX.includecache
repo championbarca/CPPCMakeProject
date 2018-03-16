@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vinit/workspace/c++/CPPCMakeProject/mylib/sum.cpp
+sum.hpp
+/home/vinit/workspace/c++/CPPCMakeProject/mylib/sum.hpp
+
+/home/vinit/workspace/c++/CPPCMakeProject/mylib/sum.hpp
+version.hpp
+/home/vinit/workspace/c++/CPPCMakeProject/mylib/version.hpp
+iostream
+-
+
+/home/vinit/workspace/c++/CPPCMakeProject/mylib/version.hpp
+

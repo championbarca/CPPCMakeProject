@@ -1,0 +1,28 @@
+
+PROJECT_NAME           = CPPCMakeProject
+PROJECT_NUMBER         = 
+
+CITE_BIB_FILES         = /home/vinit/workspace/c++/CPPCMakeProject/doc/CPPCMakeProject_bibliography.bib
+
+WARN_LOGFILE           = doxygenError.txt
+
+INPUT                  = /home/vinit/workspace/c++/CPPCMakeProject/mylib \
+                         /home/vinit/workspace/c++/CPPCMakeProject/mymain \
+                         /home/vinit/workspace/c++/CPPCMakeProject/test \
+                         /home/vinit/workspace/c++/CPPCMakeProject/benchmark
+                         
+
+FILE_PATTERNS          = *.cpp \
+                         *.hpp
+RECURSIVE              = YES
+
+EXCLUDE_PATTERNS       =  */moc_/* */_automoc/* */build/*
+
+IMAGE_PATH             = /home/vinit/workspace/c++/CPPCMakeProject/doc/figures/
+
+EXTRA_PACKAGES         = mathtools \
+                         amsfonts \
+                         stmaryrd
+			 
+PREDEFINED             = DOXYGEN_DOC
+

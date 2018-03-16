@@ -15,7 +15,7 @@
 #define MyFirstProject_VERSION_MAJOR   
 #define MyFirstProject_VERSION_MINOR 
 #define MyFirstProject_VERSION_PATCH 
-#define MyFirstProject_GIT_REVISION "23390ec68dcd1c80b074e44dc06c102f59eccb7d"
+#define MyFirstProject_GIT_REVISION "1fddd50ac9f99e7079cf7eb601da098ce5419394"
 
 #define MyFirstProject_SYSTEM_NAME Linux
 #define MyFirstProject_HOST_SYSTEM_PROCESSOR x86_64
