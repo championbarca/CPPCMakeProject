@@ -1,1 +1,0 @@
-/usr/bin/c++  -fPIC  -std=c++17 -pthread -Wconversion -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Woverloaded-virtual -Wwrite-strings -Wno-unused -O0 -g3  -shared -Wl,-soname,libmylib.so -o libmylib.so CMakeFiles/mylib.dir/sum.cpp.o 
