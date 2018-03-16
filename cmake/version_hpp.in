@@ -1,0 +1,21 @@
+//==================================================
+// Automatically generated, but not overwritten
+//==================================================
+// CAVEAT: config.hpp.in is never overwritten, but config.hpp is!
+//
+
+#pragma once
+
+/** @file 
+ *  @brief MyFirstProject configuration file
+ *  
+ *  @attention automatically generated from @b config.hpp.in, do not modify!
+ */
+
+#define MyFirstProject_VERSION_MAJOR @MyFirstProject_VERSION_MAJOR@  
+#define MyFirstProject_VERSION_MINOR @MyFirstProject_VERSION_MINOR@
+#define MyFirstProject_VERSION_PATCH @MyFirstProject_VERSION_PATCH@
+#define MyFirstProject_GIT_REVISION "@MyFirstProject_GIT_REVISION@"
+
+#define MyFirstProject_SYSTEM_NAME @CMAKE_SYSTEM_NAME@
+#define MyFirstProject_HOST_SYSTEM_PROCESSOR @CMAKE_HOST_SYSTEM_PROCESSOR@

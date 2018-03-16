@@ -1,0 +1,28 @@
+
+PROJECT_NAME           = @PROJECT_NAME@
+PROJECT_NUMBER         = @MyFirstProject_VERSION@
+
+CITE_BIB_FILES         = @PROJECT_SOURCE_DIR@/doc/@PROJECT_NAME@_bibliography.bib
+
+WARN_LOGFILE           = doxygenError.txt
+
+INPUT                  = @PROJECT_SOURCE_DIR@/mylib \
+                         @PROJECT_SOURCE_DIR@/mymain \
+                         @PROJECT_SOURCE_DIR@/test \
+                         @PROJECT_SOURCE_DIR@/benchmark
+                         
+
+FILE_PATTERNS          = *.cpp \
+                         *.hpp
+RECURSIVE              = YES
+
+EXCLUDE_PATTERNS       =  */moc_/* */_automoc/* */build/*
+
+IMAGE_PATH             = @PROJECT_SOURCE_DIR@/doc/figures/
+
+EXTRA_PACKAGES         = mathtools \
+                         amsfonts \
+                         stmaryrd
+			 
+PREDEFINED             = DOXYGEN_DOC
+
